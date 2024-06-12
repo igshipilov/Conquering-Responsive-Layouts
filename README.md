@@ -2,4 +2,4 @@
 # Responsive layout for three screens:
 (from "final challenge")
 
-<video controls src="08-final-challenge/responsive layout --igshipilov.mp4" width="100%" title="Responsive layout for three screens"></video>
+[![Responsive layout for three screens](https://img.youtube.com/vi/O9KD2TU3Fdk/0.jpg)](https://www.youtube.com/watch?v=O9KD2TU3Fdk)
