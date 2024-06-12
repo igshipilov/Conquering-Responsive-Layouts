@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 2.25rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+header {
+  background-color: #136c72;
+  padding: 1em 0;
+}
+
+.main h2 {
+  margin-bottom: 1.15rem;
+}
+
+.main p {
+  margin-bottom: 1rem;
+}
+
+.sidebar p {
+  margin-bottom: 3rem;
+}
+
+.hero {
+  padding: 6rem 0;
+  min-width: 240px;
+  background-color: #23424a;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+
+  border: 2px solid white;
+}
+
+.hero p {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.primary-content,
+.hero__text {
+  width: 62%;
+}
+
+.sidebar,
+.hero__img {
+  width: 42%;
+  align-self: flex-start;
+}
+
+.btn {
+  background-color: #38cfd9;
+  color: #072a2d;
+
+  padding: 0.75em 1.25em;
+  border-radius: 20rem;
+
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #07929c;
+  color: white;
+}
+
+.section-title {
+  color: #136c72;
+}
+
+.main {
+  margin-top: 3rem;
+}
+
+.sidebar {
+  color: white;
+  background-color: #136c72;
+  text-align: center;
+  padding: 4rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-shrink: 0;
+
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  border: 2px solid rgb(255, 106, 0);
+}
+
+.nav__list--primary {
+  margin: 0 auto;
+}
+
+.nav__link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+}
+
+.nav__link--button {
+  color: #136c72;
+  background-color: white;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.logo {
+  border: 2px solid yellow;
+  margin-right: 1rem;
+}
+
+@media (max-width: 900px) {
+  .row {
+    /* display: block; */
+    flex-direction: column;
+  }
+
+  .hero__img {
+    margin-top: 2rem;
+  }
+
+  .hero__img,
+  .sidebar,
+  .primary-content,
+  .hero__text {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 600px;
+  }
+
+
+
+  .logo {
+    align-self: flex-start;
+  }
+}

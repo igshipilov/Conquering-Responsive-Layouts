@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #f3eed9;
+  --color-secondary: #824936;
+  --color-accent: #222c2a;
+
+  --font-titles: "Playfair Display", serif;
+  --font-text: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-text);
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  color: var(--color-accent);
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: var(--font-titles);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+section {
+  padding: 4em 0;
+}
+
+.intro {
+  background-color: var(--color-primary);
+  padding: 200px 0;
+  text-align: center;
+  min-height: 660px;
+}
+
+.intro__text {
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
+  font-size: 1.125rem;
+  margin: 0 0 0.25em;
+}
+
+.intro__title {
+  color: var(--color-secondary);
+  font-size: 3rem;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  color: var(--color-primary);
+}
+
+.section-two > .container > .section-title {
+  text-align: center;
+}
+
+.section-title--dark {
+  color: var(--color-secondary);
+}
+
+.section-three {
+  background-color: var(--color-accent);
+  color: white;
+}
+
+.section-four {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 1128px;
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .col + .col {
+    margin-left: 4em;
+  }
+
+  .intro__title {
+    font-size: 3.75em;
+  }
+}

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="main-menu">
+                <div class="main-menu--content row-medium container">
+                    <div class="icons row">
+                        <div class="logo">
+                            <img
+                                src="../src/imgs/logo.svg"
+                                alt=""
+                                class="logo-img"
+                            />
+                        </div>
+                        <div class="toggle-nav">
+                            <svg
+                                class="hamburger-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 50 50"
+                                width="50px"
+                                height="50px"
+                            >
+                                <path
+                                    d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                    <nav class="nav hidden">
+                        <ul class="nav__list col row-medium">
+                            <div class="nav__list--primary row-medium">
+                                <li class="item item-header">
+                                    <a
+                                        href="#"
+                                        class="item__link item__link--header"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="item item-header">
+                                    <a
+                                        href="#"
+                                        class="item__link item__link--header"
+                                        >About</a
+                                    >
+                                </li>
+                                <li class="item item-header">
+                                    <a
+                                        href="#"
+                                        class="item__link item__link--header"
+                                        >Contact</a
+                                    >
+                                </li>
+                            </div>
+                            <div class="nav__list--secondary row-medium">
+                                <li class="item item-header">
+                                    <a
+                                        href="#"
+                                        class="item__link item__link--header"
+                                        >Sign in</a
+                                    >
+                                </li>
+                                <li class="item item-header">
+                                    <a
+                                        href="#"
+                                        class="item__link item__link--header btn"
+                                        >Sign Up</a
+                                    >
+                                </li>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="section section-one">
+            <div class="container">
+                <div class="section-one--content row-desktop">
+                    <h1 class="intro-title">
+                        Responsive layouts
+                        <span class="color-accent"
+                            >don't have to be a struggle</span
+                        >
+                    </h1>
+                    <div class="intro-text col">
+                        <p class="intro-text">
+                            Crafting responsive designs that seamlessly adapt to
+                            various screen sizes is a crucial aspect of modern
+                            web development. With the right CSS techniques, you
+                            can create layouts that provide an optimal user
+                            experience across different devices.
+                        </p>
+                        <button class="btn">I want to learn</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section section-two">
+            <div class="container row-medium">
+                <div class="section-two--block col">
+                    <h3 class="section-two--title">Mobile-first</h3>
+                    <p class="section-two--text">
+                        Mobile-first layouts prioritize the mobile experience,
+                        ensuring your content is accessible and engaging on
+                        smaller screens. By starting with a mobile-first
+                        approach, you can then progressively enhance the design
+                        for larger viewports.
+                    </p>
+                </div>
+                <div class="section-two--block col">
+                    <h3 class="section-two--title">Efficient</h3>
+                    <p class="section-two--text">
+                        Efficient CSS layouts leverage the power of grid
+                        systems, flexbox, and other layout modules to create
+                        structured, responsive, and maintainable designs. These
+                        techniques allow you to quickly build complex layouts
+                        while ensuring they remain flexible and adaptable.
+                    </p>
+                </div>
+                <div class="section-two--block col">
+                    <h3 class="section-two--title">Done right</h3>
+                    <p class="section-two--text">
+                        When it comes to responsive design, it's important to
+                        get the fundamentals right. By understanding the
+                        principles of mobile-first, efficient, and
+                        well-structured layouts, you can create designs that not
+                        only look great but also provide a seamless user
+                        experience across all devices.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-three container row-desktop">
+            <div class="section-three--content col">
+                <h3 class="section-three--title">
+                    It doesn't have to be so hard
+                </h3>
+                <p class="section-three--text">
+                    Breaking down complex layouts into smaller, manageable
+                    components is a key strategy in responsive web design. By
+                    breaking down your design into logical sections, you can
+                    more easily apply the appropriate CSS techniques to ensure
+                    each element functions correctly and adapts to different
+                    screen sizes.
+                </p>
+                <div class="image--container">
+                    <img
+                        src="./src/the-image.jpg"
+                        alt="layers image"
+                        class="image"
+                    />
+                </div>
+                <p class="section-three--text">
+                    Building your way up from a solid mobile-first foundation is
+                    crucial for creating responsive layouts that work well
+                    across a wide range of devices. Start with a basic,
+                    mobile-friendly layout and gradually enhance it as you move
+                    up the screen size spectrum, ensuring a consistent and
+                    optimized user experience.
+                </p>
+            </div>
+            <div class="section-three--cards col">
+                <div class="cards col row-medium col-desktop">
+                    <div class="card">
+                        <h1 class="card-title">Break it down</h1>
+                        <p class="card-text">
+                            Divide your CSS into manageable components for
+                            easier styling and maintenance.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h1 class="card-title">Work your way up</h1>
+                        <p class="card-text">
+                            Start with basic layout structures and gradually add
+                            complexity as needed.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h1 class="card-title">Keep your layouts responsive</h1>
+                        <p class="card-text">
+                            Ensure your designs adapt seamlessly to different
+                            screen sizes and devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="section">
+            <div class="container">
+                <h2 class="footer-title">Just scratching the surface</h2>
+                <div class="footer-content">
+                    <nav class="footer-nav row-desktop">
+                        <div class="footer-nav--about col">
+                            <h3 class="footer-nav--title">
+                                Feel free to contact me:
+                            </h3>
+                            <div class="footer-nav--text">
+                                <div class="contacts">
+                                    <p>
+                                        <strong>e-mail:</strong>
+                                        <a
+                                            href="mailto:igor_shipilov@inbox.ru" 
+                                            class="link copy-link"
+                                            >igor_shipilov@inbox.ru</a
+                                        >
+                                    </p>
+                                    <br />
+                                    <strong>Telegram:</strong>
+                                    <a
+                                        href="https://t.me/igshipilov"
+                                        class="link"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        >https://t.me/igshipilov</a
+                                    >
+                                </div>
+                                <p>
+                                    I considering intern or junior positions in
+                                    the solid company with strong processes of
+                                    growing future middle and senior developers,
+                                    and where I will solve your business tasks
+                                    and help you grow your profit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer-nav--groups row-medium">
+                            <div class="footer-nav--group">
+                                <h3 class="footer-nav--title">
+                                    Menu Examples
+                                </h3>
+                                <ul class="footer-nav--text">
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Home</a
+                                        >
+                                    </li>
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >About</a
+                                        >
+                                    </li>
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Contact</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-nav--group">
+                                <h3 class="footer-nav--title">Explore More</h3>
+                                <ul class="footer-nav--text">
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Flexbox Fundamentals</a
+                                        >
+                                    </li>
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Grid System Insights</a
+                                        >
+                                    </li>
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Responsive Techniques</a
+                                        >
+                                    </li>
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Advanced Selectors</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-nav--group">
+                                <h3 class="footer-nav--title">
+                                    Additional Resources
+                                </h3>
+                                <ul class="footer-nav--text">
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >CSS Variables Deep Dive</a
+                                        >
+                                    </li>
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Shadows and Effects</a
+                                        >
+                                    </li>
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Animation Techniques</a
+                                        >
+                                    </li>
+                                    <li class="item">
+                                        <a
+                                            href="#"
+                                            class="item__link item__link--footer"
+                                            >Styling Forms</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

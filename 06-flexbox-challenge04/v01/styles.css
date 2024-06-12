@@ -1,0 +1,119 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
+:root {
+  --color-primary: #f3eed9;
+  --color-secondary: #824936;
+  --color-accent: #222c2a;
+
+  --font-titles: "Playfair Display", serif;
+  --font-text: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: var(--font-titles);
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+body {
+  font-family: var(--font-text);
+  font-size: 1.25rem;
+}
+
+header {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 660px;
+  background-color: var(--color-primary);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+.thin-uppercase {
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+
+.text-intro {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1128px;
+  padding: 5rem;
+}
+
+.flex-center {
+  align-self: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-2 > * {
+  width: 45%;
+}
+
+.card {
+  max-height: 400px;
+}
+
+.card-1 {
+  background-color: var(--color-accent);
+}
+
+.card-2 {
+  background-color: var(--color-secondary);
+}
+
+.photo-right {
+  flex-direction: row-reverse;
+}
+
+.img {
+  width: 100%;
+}
